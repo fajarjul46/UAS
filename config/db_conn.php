@@ -3,9 +3,9 @@ error_reporting(0);                 //Untuk menyembunyikan error pada php, juga 
 ini_set('date.timezone', 'Asia/Jakarta'); // Untuk menentukan Timezone pada aplikasi, karena di beberapa server hosting menggunakan timezone negara lain
 ini_set('max_execution_time', 300); // Menentukan batas maksimal eksekusi file PHP selama 5 menit atau 300 Detik
 $host = "localhost"; // IP Server Database, localhost berarti merujuk ke server itu sendiri dengan kata lain server hosting dan database menjadi 1
-$user = "fngx7438_uas"; // Username database
-$password = "{B0BVtj^mc*I"; // Password Database
-$database = "fngx7438_uas"; // Nama Database yang di pakai
+$user = "root"; // Username database
+$password = ""; // Password Database
+$database = "db_uas"; // Nama Database yang di pakai
 
 $koneksi = mysqli_connect($host, $user, $password, $database); // Membuat koneksi ke database
 
