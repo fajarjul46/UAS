@@ -1,0 +1,8 @@
+# Line 2-5 menghilangkan ekstensi .php
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# line 8 mencegah halaman tanpa index dapat diakses secara langsung (Page Error 'Forbiden')
+Options -Indexes
