@@ -39,3 +39,5 @@ Fungsi-Fungsi PHP
 9. session.php
   untuk melakukan pengecekan session, apakah session tersebut sudah terdapat username/fullname atau belum. apabila sudah maka akan di teruskan ke halaman yang di tuju, apabula belum maka akan di teruskan ke halaman login -> index.php
 10. untuk semua fungsi-fungsi PHP sudah saya sertakan di sebelah source code, pada file-file tersebut saya beri komentar pada scriptnya agar fungsi script tersebut lebih jelas.
+11. Link Testing Web App yang sudah di hosting :
+    https://uas.fng-app.com
